@@ -11,11 +11,12 @@
 
             while (isProgrammOn)
             {
-                ShowMenu();
-                string userMenuNavigate = Console.ReadLine();
                 const string CommandHealthBar = "Healthbar";
                 const string CommandManaBar = "Manabar";
                 const string CommandExit = "Exit";
+
+                ShowMenu();
+                string userMenuNavigate = Console.ReadLine();
 
                 switch (userMenuNavigate)
                 {
